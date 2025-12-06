@@ -16,9 +16,7 @@ Team Members
 - `frontend`: the EmberAlert mobile client that lets users view wildfire incident data and notifications.
 - `backend`: provides REST endpoints and WebSocket notifications for wildfire data.
 - `scheduler`: background service that polls the Cal Fire API, cleans data, and stores it in PostgreSQL.
-- `compose`: Docker Compose deployment for the API server, scheduler, and PostgreSQL database.
+- `infrastructure`: Docker Compose deployment for the API server, scheduler, and PostgreSQL database and testing for backend.
 
 
-> Note: The backend services (API server + scheduler + database) are designed to be run using the Docker Compose configuration found in the `compose` repo.
-
-
+> Note: The backend services (API server + scheduler + database) are designed to be run using the Docker Compose configuration found in the `infrastructure` repo.
